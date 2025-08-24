@@ -1,0 +1,105 @@
+/* src/components/StudySupport.css */
+
+.study-support {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 28px;
+    color: #1a202c;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #4a5568;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .resources, .additional-support {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 22px;
+    color: #2d3748;
+    margin-bottom: 15px;
+  }
+  
+  .resource-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resource-list li {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #4a5568;
+  }
+  
+  .resource-list strong {
+    color: #2c5282;
+  }
+  
+  .link {
+    color: #3182ce;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .additional-support .info-text {
+    font-size: 16px;
+    color: #718096;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .actions {
+    text-align: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2b6cb0;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2c5282;
+  }
+  
+  .button.secondary {
+    background-color: #4a5568;
+  }
+  
+  .button.secondary:hover {
+    background-color: #2d3748;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #718096;
+    line-height: 1.5;
+  }
+  
